@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-# After deploy: Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://luukogod.github.io/luukogod-porfolio/sitemap.xml

@@ -1,10 +1,14 @@
-# Developer portfolio — React & Vite
+# Developer Portfolio (Frontend + Full Stack) — React & Vite
 
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-0055FF)](https://www.framer.com/motion/)
 
-Senior **full stack** portfolio with **`src/data/site.json`** (contact, hero, SEO) and **`src/data/projects.json`** (featured work). Runtime SEO in **`src/components/Seo.jsx`**, theme toggle, Framer Motion. Nav uses a **compact pill on the home section** only (`navigation--home`).
+<span style="font-size:1.3em;"><strong>⭐️ If this portfolio template helped you, drop a star! It means a lot and helps others find it too 😊🙏</strong></span>
+
+---
+
+Modern **developer portfolio** built with **React + Vite** — a **frontend developer portfolio** and **fullstack portfolio** template you can deploy on **GitHub Pages / Vercel / Netlify**. Content lives in **`src/data/site.json`** (hero, contact, SEO) and **`src/data/projects.json`** (featured work). SEO is handled by **`src/components/Seo.jsx`** (meta tags + JSON‑LD) and a shipped **`public/sitemap.xml`** + **`public/robots.txt`**.
 
 ---
 
@@ -24,15 +28,10 @@ PNGs live in **`docs/readme/`** (README only). **`public/robots.txt`** ships wit
 
 ---
 
-## If this helped you
-
-A **star** is appreciated. ⭐ ✨ 🙏
-
----
-
 ## Features
 
-- Central **`site.json`**: links, hero roles/tagline, `seo` (title, description, keywords, OG image), optional `siteUrl` for canonical + `og:url`
+- SEO-ready **developer portfolio**: canonical URL, OpenGraph/Twitter, JSON‑LD (Person/WebSite/WebPage), `robots.txt`, `sitemap.xml`
+- Central **`site.json`**: links, hero roles/tagline, `seo` (title, description, keywords, OG image), `siteUrl` for canonical + `og:url`
 - **`projects.json`** + **`src/assets/`** screenshots via **`projectImages.js`**
 - **`Seo.jsx`**: meta tags + JSON-LD `Person`
 - **`index.html`**: baseline `<head>` (keep aligned with `site.json`)
@@ -88,8 +87,8 @@ Per project: `title`, `subtitle`, `description`, `technologies`, `categories` (`
 
 ## After deploy
 
-1. Set **`siteUrl`** in **`site.json`**
-2. Optional: `sitemap.xml` in **`public/`** and list it in **`robots.txt`**
+1. Update **`siteUrl`** in **`src/data/site.json`** (canonical + `og:url`)
+2. Update **`public/sitemap.xml`** + `public/robots.txt` if you change domains or routes
 
 ---
 

@@ -1,5 +1,5 @@
 {
-  "siteUrl": "",
+  "siteUrl": "https://luukogod.github.io/luukogod-porfolio/",
   "person": {
     "displayName": "Vitaliy Sopin",
     "copyrightName": "Vitaliy Sopin"
@@ -18,15 +18,20 @@
     "description": "Expert high performance in full stack, frontend & backend development • iOS & Android • modern web"
   },
   "seo": {
-    "title": "Senior Full Stack Engineer | Frontend & Backend Developer Portfolio | GitHub Projects",
-    "description": "Senior full stack engineer portfolio: React, Node.js, TypeScript, mobile, and cloud. Explore frontend developer portfolio and backend developer portfolio projects on GitHub.",
+    "title": "Developer Portfolio | Frontend Developer Portfolio & Full Stack Projects | React, Node.js",
+    "description": "Developer portfolio showcasing frontend and full stack projects built with React, Node.js, and TypeScript. Explore real-world apps, case studies, and GitHub code.",
     "keywords": [
+      "developer portfolio",
       "senior full stack engineer portfolio",
+      "fullstack portfolio",
       "fullstack developer portfolio",
       "full stack developer portfolio",
       "frontend developer portfolio",
+      "frontend portfolio",
       "backend developer portfolio",
+      "full stack portfolio",
       "github portfolio developer",
+      "developer portfolio github",
       "react portfolio",
       "node.js developer",
       "typescript portfolio",

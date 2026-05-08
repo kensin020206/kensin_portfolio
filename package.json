@@ -1,6 +1,22 @@
 {
   "name": "fullstack-portfolio",
   "description": "Senior full stack portfolio (React + Vite). site.json, projects.json, SEO via Seo.jsx.",
+  "keywords": [
+    "developer-portfolio",
+    "developer portfolio",
+    "portfolio",
+    "frontend developer portfolio",
+    "frontend portfolio",
+    "fullstack portfolio",
+    "full stack portfolio",
+    "fullstack developer portfolio",
+    "full stack developer portfolio",
+    "react portfolio",
+    "vite",
+    "react",
+    "typescript",
+    "nodejs"
+  ],
   "private": true,
   "version": "0.0.0",
   "type": "module",
