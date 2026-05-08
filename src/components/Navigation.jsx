@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { motion } from 'framer-motion'
 import { FaHome, FaCode, FaBriefcase, FaGraduationCap, FaProjectDiagram, FaEnvelope } from 'react-icons/fa'
 import './Navigation.css'
@@ -22,7 +23,7 @@ const Navigation = ({ activeSection }) => {
 
   return (
     <motion.nav 
-      className="navigation"
+      className={`navigation ${activeSection === 'home' ? 'navigation--home' : ''}`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5, type: "spring", stiffness: 100 }}

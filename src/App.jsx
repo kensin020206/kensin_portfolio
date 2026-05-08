@@ -6,13 +6,12 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Skills from './components/Skills'
 import Services from './components/Services'
-// import Projects from './components/Pro'
 import Projects from './components/Projects'
-// import Experience from './components/Experience'
 import Contact from './components/Contact'
 import CustomCursor from './components/CustomCursor'
 import StarryBackground from './components/StarryBackground'
 import WaterAnimation from './components/WaterAnimation'
+import Seo from './components/Seo'
 
 function App() {
   const [activeSection, setActiveSection] = useState('home')
@@ -41,6 +40,7 @@ function App() {
 
   return (
     <ThemeProvider>
+      <Seo />
       <div className="App">
         <CustomCursor />
         <StarryBackground />
@@ -51,7 +51,6 @@ function App() {
           <About />
           <Skills />
           <Services />
-          {/* <Experience /> */}
           <Projects />
           <Contact />
         </main>

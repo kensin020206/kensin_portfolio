@@ -1,104 +1,124 @@
-# Senior Software Engineer Portfolio
+# Developer portfolio — React & Vite
 
-A modern, professional portfolio website for a Senior Software Engineer with 8+ years of experience. Built with modern fullstack and inspired by modern portfolio designs.
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-0055FF)](https://www.framer.com/motion/)
+
+Senior **full stack** portfolio with **`src/data/site.json`** (contact, hero, SEO) and **`src/data/projects.json`** (featured work). Runtime SEO in **`src/components/Seo.jsx`**, theme toggle, Framer Motion. Nav uses a **compact pill on the home section** only (`navigation--home`).
+
+---
+
+## Preview
+
+<p align="center"><img src="docs/readme/darkmode.png" alt="Dark theme" width="920" /><br /><sub>Dark theme</sub></p>
+
+<p align="center"><img src="docs/readme/lightmode.png" alt="Light theme" width="920" /><br /><sub>Light theme</sub></p>
+
+<p align="center"><img src="docs/readme/skills.png" alt="Skills" width="920" /><br /><sub>Skills</sub></p>
+
+<p align="center"><img src="docs/readme/services.png" alt="Services" width="920" /><br /><sub>Services</sub></p>
+
+<p align="center"><img src="docs/readme/projects.png" alt="Projects" width="920" /><br /><sub>Featured projects</sub></p>
+
+PNGs live in **`docs/readme/`** (README only). **`public/robots.txt`** ships with the app.
+
+---
+
+## If this helped you
+
+A **star** is appreciated. ⭐ ✨ 🙏
+
+---
 
 ## Features
 
-- 🎨 Modern, responsive design with smooth animations
-- 📱 Fully responsive for all devices
-- ⚡ Built with React and Vite for fast performance
-- 🎯 Sections: Hero, About, Skills, Experience, Projects, Contact
-- 🌈 Beautiful gradient effects and modern UI
-- ✨ Smooth scrolling navigation
+- Central **`site.json`**: links, hero roles/tagline, `seo` (title, description, keywords, OG image), optional `siteUrl` for canonical + `og:url`
+- **`projects.json`** + **`src/assets/`** screenshots via **`projectImages.js`**
+- **`Seo.jsx`**: meta tags + JSON-LD `Person`
+- **`index.html`**: baseline `<head>` (keep aligned with `site.json`)
+- **`browserLogger.js`**: Consola for contact form logs in DevTools
+- **Navigation**: smaller nav bar while **`#home`** is the active scroll section
 
-## Tech Stack
+---
 
-- **React** - UI library
-- **Vite** - Build tool and dev server
-- **CSS3** - Styling with modern features
-- **Inter Font** - Google Fonts for typography
+## Tech stack
 
-## Getting Started
+| Layer | Choice |
+| --- | --- |
+| UI | React 18 |
+| Build | Vite 5 |
+| Motion | Framer Motion |
+| Icons | react-icons |
+| Logs | Consola (`consola/browser`) |
 
-### Prerequisites
+---
 
-- Node.js (v18 or higher recommended)
-- npm or yarn
+## Quick start
 
-### Installation
-
-1. Install dependencies:
 ```bash
 npm install
-```
-
-2. Start the development server:
-```bash
 npm run dev
 ```
 
-3. Open your browser and navigate to `http://localhost:5173`
-
-### Build for Production
-
 ```bash
 npm run build
-```
-
-The built files will be in the `dist` directory.
-
-### Preview Production Build
-
-```bash
 npm run preview
+npm run lint
 ```
 
-## Project Structure
+---
+
+## Configuration
+
+### `src/data/site.json`
+
+| Field | Role |
+| --- | --- |
+| `siteUrl` | Production URL → canonical + `og:url` when set |
+| `person` | Name & copyright |
+| `contact` | `email`, `linkedin`, `github`, `telegram` (`""` hides Telegram in hero/footer) |
+| `hero` | `roles`, `tagline`, `description` |
+| `seo` | `title`, `description`, `keywords[]`, `author`, `ogImage`, Twitter, `jobTitle` |
+
+### `src/data/projects.json`
+
+Per project: `title`, `subtitle`, `description`, `technologies`, `categories` (`Fullstack` \| `Mobile` \| `Blockchain` \| `AI/ML` \| `Game`), `image` (filename in **`src/assets/`**), plus optional `liveLink`, `websiteLink`, `githubLink`, store links.
+
+---
+
+## After deploy
+
+1. Set **`siteUrl`** in **`site.json`**
+2. Optional: `sitemap.xml` in **`public/`** and list it in **`robots.txt`**
+
+---
+
+## Repo layout
 
 ```
-src/
-├── components/
-│   ├── Navigation.jsx      # Navigation bar
-│   ├── Hero.jsx            # Hero section
-│   ├── About.jsx           # About section
-│   ├── Skills.jsx          # Skills section
-│   ├── Experience.jsx     # Experience section
-│   ├── Projects.jsx        # Projects section
-│   └── Contact.jsx         # Contact section
-├── App.jsx                 # Main app component
-├── main.jsx                # Entry point
-└── index.css               # Global styles
+src/data/site.json
+src/data/projects.json
+src/components/Seo.jsx
+src/utils/projectImages.js
+src/utils/browserLogger.js
+public/robots.txt
+docs/readme/*.png
 ```
 
-## Customization
-
-### Update Personal Information
-
-1. **Contact Information**: Edit `src/components/Contact.jsx` to update email, LinkedIn, and GitHub links
-2. **Experience**: Modify `src/components/Experience.jsx` to add your work history
-3. **Projects**: Update `src/components/Projects.jsx` with your actual projects
-4. **Skills**: Customize `src/components/Skills.jsx` with your technical skills
-5. **About**: Edit `src/components/About.jsx` with your personal story
-
-### Styling
-
-- Global styles: `src/index.css`
-- Component styles: Each component has its own CSS file in `src/components/`
-- Color scheme: Modify CSS variables in `src/index.css`
+---
 
 ## Deployment
 
-This portfolio can be deployed to:
+Build → **`dist/`** → Vercel, Netlify, GitHub Pages, etc. For GitHub Pages subpaths, set Vite **`base`**.
 
-- **Vercel**: Connect your GitHub repo for automatic deployments
-- **Netlify**: Drag and drop the `dist` folder or connect via Git
-- **GitHub Pages**: Use the `gh-pages` package
-- **AWS S3**: Upload the `dist` folder to an S3 bucket
+---
+
+## Troubleshooting
+
+If Rollup optional native binary fails on Windows: reinstall Node for your CPU arch, or clean **`node_modules`** + lockfile and **`npm install`**.
+
+---
 
 ## License
 
-This project is open source and available for personal use.
-
-## Contact
-
-For questions or suggestions, feel free to reach out!
+Personal / learning use.

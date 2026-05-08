@@ -89,7 +89,7 @@ const About = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              <strong>Senior Software Engineer</strong> with <strong>8+ years</strong> of professional experience building scalable <strong>fullstack</strong> and <strong>mobile applications</strong> for both startups and enterprises.
+              <strong>Senior Full Stack Engineer</strong> with <strong>8+ years</strong> of professional experience building scalable <strong>fullstack</strong> and <strong>mobile applications</strong> for both startups and enterprises.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}

@@ -155,7 +155,7 @@ const Projects = () => {
       category: 'AI/ML',
       image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=600&fit=crop',
       liveLink: 'https://www.suithetic.com/',
-      githubLink: 'https://github.com/lorine93s/suithetic',
+      githubLink: 'https://github.com/luukogod/suithetic',
       icon: <SiBlockchaindotcom />
     },
     {
@@ -167,7 +167,7 @@ const Projects = () => {
       category: 'Blockchain',
       image: 'https://images.unsplash.com/photo-1642790553124-4c56d74c5a65?w=800&h=600&fit=crop',
       liveLink: 'https://veenox.xyz/',
-      githubLink: 'https://github.com/lorine93s/Veenox---Perpetual-trading-platfom',
+      githubLink: 'https://github.com/luukogod/Veenox---Perpetual-trading-platfom',
       icon: <FaExchangeAlt />
     },
     {

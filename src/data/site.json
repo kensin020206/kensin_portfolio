@@ -1,0 +1,41 @@
+{
+  "siteUrl": "",
+  "person": {
+    "displayName": "Vitaliy Sopin",
+    "copyrightName": "Vitaliy Sopin"
+  },
+  "contact": {
+    "email": "sopinvitaly97@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/vitaliy-sopin-1a16713a7/",
+    "github": "https://github.com/luukogod",
+    "telegram": "https://t.me/lorine93ss"
+  },
+  "hero": {
+    "roles": [
+      "Full Stack Engineer"
+    ],
+    "tagline": "Building Scalable Web & Mobile Applications",
+    "description": "Expert high performance in full stack, frontend & backend development • iOS & Android • modern web"
+  },
+  "seo": {
+    "title": "Senior Full Stack Engineer | Frontend & Backend Developer Portfolio | GitHub Projects",
+    "description": "Senior full stack engineer portfolio: React, Node.js, TypeScript, mobile, and cloud. Explore frontend developer portfolio and backend developer portfolio projects on GitHub.",
+    "keywords": [
+      "senior full stack engineer portfolio",
+      "fullstack developer portfolio",
+      "full stack developer portfolio",
+      "frontend developer portfolio",
+      "backend developer portfolio",
+      "github portfolio developer",
+      "react portfolio",
+      "node.js developer",
+      "typescript portfolio",
+      "software engineer portfolio"
+    ],
+    "author": "Vitaliy Sopin",
+    "ogImage": "https://cdn.dribbble.com/userupload/31363804/file/original-d6770bbed5cca1f3c1146fc1d425d40d.png?resize=1024x768&vertical=center",
+    "twitterCard": "summary_large_image",
+    "twitterSite": "",
+    "jobTitle": "Senior Full Stack Engineer"
+  }
+}

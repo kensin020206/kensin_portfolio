@@ -1,9 +1,8 @@
 /**
- * Browser logging via Consola (https://github.com/unjs/consola).
- * Avoid npm "emojiprint-logger" — compromised / malware.
+ * Client logging: Consola browser build (`npm install consola`).
  */
-import { logger } from 'emojiprint-logger'
+import { consola } from 'consola/browser'
 
-export const browserLogger = logger
+export const logger = consola
 
 export default logger
