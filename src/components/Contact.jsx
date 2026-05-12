@@ -152,17 +152,6 @@ const Contact = () => {
             <a href={`mailto:${contact.email}`} className="footer-social-icon" aria-label="Email">
               <FaEnvelope />
             </a>
-            {contact.telegram ? (
-              <a
-                href={contact.telegram}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="footer-social-icon"
-                aria-label="Telegram"
-              >
-                <FaTelegram />
-              </a>
-            ) : null}
           </div>
         </div>
       </footer>

@@ -1,21 +1,20 @@
 {
-  "siteUrl": "https://luukogod.github.io/luukogod-porfolio/",
+  "siteUrl": "https://raymon.dev/",
   "person": {
-    "displayName": "Vitaliy Sopin",
-    "copyrightName": "Vitaliy Sopin"
+    "displayName": "Raymon Cavazos",
+    "copyrightName": "Raymon Cavazos"
   },
   "contact": {
-    "email": "sopinvitaly97@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/vitaliy-sopin-1a16713a7/",
-    "github": "https://github.com/luukogod",
-    "telegram": "https://t.me/lorine93ss"
+    "email": "raymon.cavazos940720@outlook.com",
+    "linkedin": "https://www.linkedin.com/in/raymon-cavazos-608b22407/",
+    "github": "https://github.com/luukogod/"
   },
   "hero": {
     "roles": [
-      "Full Stack Engineer"
+      "Full Stack AI Engineer"
     ],
-    "tagline": "Building Scalable Web & Mobile Applications",
-    "description": "Expert high performance in full stack, frontend & backend development • iOS & Android • modern web"
+    "tagline": "Building Practical Sophisticated AI Solutions & Scalable Web Applications",
+    "description": "Expert high performance in AI/ML • Full stack development • Android • Modern web"
   },
   "seo": {
     "title": "Developer Portfolio | Frontend Developer Portfolio & Full Stack Projects | React, Node.js",

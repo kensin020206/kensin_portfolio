@@ -9,7 +9,9 @@ import {
   SiPython,
   SiRedux,
   SiGraphql,
+  SiGoland,
   SiTailwindcss,
+  SiRubyonrails,
   SiSass,
   SiVuedotjs,
   SiDocker,
@@ -57,6 +59,7 @@ import {
   SiGitlab,
   SiPytorch,
   SiOpenai,
+  SiInvision
   // SiOracle,
 } from 'react-icons/si'
 import { 
@@ -87,6 +90,42 @@ const Skills = () => {
 
   const technicalSkillsTop = [
     {
+      title: 'AI/ML',
+      icon: <FaBrain />,
+      skills: [
+        { name: 'NLP', icon: <FaBrain /> },
+        { name: 'Computer Vision', icon: <SiOpenai /> },
+        { name: 'Generative AI', icon: <FaBrain /> },
+        { name: 'RAG', icon: <SiOpenai /> },
+        { name: 'LLM', icon: <FaBrain /> },
+        { name: 'Prompt Engineering', icon: <SiOpenai /> },
+        { name: 'OpenAI', icon: <FaBrain /> },
+        { name: 'PyTorch', icon: <SiPytorch /> },        
+        { name: 'Python', icon: <SiPython /> },
+        { name: 'TensorFlow', icon: <SiOpenai /> },
+        { name: 'Deep Learning', icon: <FaBrain /> },
+        { name: 'Machine Learning', icon: <SiOpenai /> }
+      ]
+    },
+    {
+      title: 'Backend',
+      icon: <FaServer />,
+      skills: [
+        { name: 'Node.js', icon: <SiNodedotjs /> },
+        { name: 'Python', icon: <SiPython /> },
+        { name: 'PHP', icon: <SiPhp /> },
+        { name: 'Java', icon: <FaServer /> },
+        { name: 'Express.js', icon: <SiExpress /> },
+        { name: 'Nest.js', icon: <SiNestjs /> },
+        { name: 'Laravel', icon: <SiLaravel /> },
+        { name: '.NET', icon: <SiDotnet /> },
+        { name: 'Ruby on Rails', icon: <SiRubyonrails /> },
+        { name: 'Golang', icon: <SiGoland /> },
+        { name: 'GraphQL', icon: <SiGraphql /> },
+        { name: 'REST APIs', icon: <FaServer /> }
+      ]
+    },
+    {
       title: 'Frontend',
       icon: <FaCode />,
       skills: [
@@ -103,23 +142,10 @@ const Skills = () => {
         { name: 'Redux', icon: <SiRedux /> },
         { name: 'Bootstrap', icon: <SiBootstrap /> }
       ]
-    },
-    {
-      title: 'Backend',
-      icon: <FaServer />,
-      skills: [
-        { name: 'Node.js', icon: <SiNodedotjs /> },
-        { name: 'Python', icon: <SiPython /> },
-        { name: 'PHP', icon: <SiPhp /> },
-        { name: 'Java', icon: <FaServer /> },
-        { name: 'Express.js', icon: <SiExpress /> },
-        { name: 'Nest.js', icon: <SiNestjs /> },
-        { name: 'Laravel', icon: <SiLaravel /> },
-        { name: '.NET', icon: <SiDotnet /> },
-        { name: 'GraphQL', icon: <SiGraphql /> },
-        { name: 'REST APIs', icon: <FaServer /> }
-      ]
-    },
+    }
+  ]
+
+  const technicalSkillsBottom = [
     {
       title: 'Database & Cloud',
       icon: <FaDatabase />,
@@ -137,10 +163,7 @@ const Skills = () => {
         { name: 'Kubernetes', icon: <SiKubernetes /> },
         { name: 'CI/CD', icon: <SiJenkins /> }
       ]
-    }
-  ]
-
-  const technicalSkillsBottom = [
+    },
     {
       title: 'Mobile',
       icon: <FaMobileAlt />,
@@ -153,18 +176,6 @@ const Skills = () => {
         { name: 'Ionic', icon: <SiIonic /> },
         { name: 'Redux', icon: <SiRedux /> },
         { name: 'TypeScript', icon: <SiTypescript /> }
-      ]
-    },
-    {
-      title: 'AI/ML',
-      icon: <FaBrain />,
-      skills: [
-        { name: 'OpenAI', icon: <SiOpenai /> },
-        { name: 'PyTorch', icon: <SiPytorch /> },
-        { name: 'LLM', icon: <FaBrain /> },
-        { name: 'Python', icon: <SiPython /> },
-        { name: 'TensorFlow', icon: <FaBrain /> },
-        { name: 'Machine Learning', icon: <FaBrain /> }
       ]
     }
   ]

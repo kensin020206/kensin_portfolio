@@ -31,10 +31,10 @@ const Projects = () => {
 
   const categories = [
     { name: 'All', icon: <FaCode /> },
+    { name: 'AI/ML', icon: <FaBrain /> },
     { name: 'Fullstack', icon: <FaServer /> },
     { name: 'Mobile', icon: <FaMobileAlt /> },
     { name: 'Blockchain', icon: <FaBitcoin /> },
-    { name: 'AI/ML', icon: <FaBrain /> },
     { name: 'Game', icon: <FaGamepad /> }
   ]
 

@@ -12,6 +12,12 @@ import './Services.css'
 const Services = () => {
   const services = [
     {
+      icon: <SiOpenai />,
+      title: 'AI/ML & Automation',
+      description:
+        'Integrating OpenAI GPT, machine learning, and custom automation for smarter applications: value-add chat, analysis, and productivity augmentation.',
+    },
+    {
       icon: <SiNodedotjs />,
       title: 'Fullstack Development',
       description:
@@ -40,12 +46,6 @@ const Services = () => {
       title: 'API Development',
       description:
         'Expertise in RESTful and GraphQL APIs. API schema design, integration, and documentation with Node.js, Python, and modern architectures.',
-    },
-    {
-      icon: <SiOpenai />,
-      title: 'AI & Automation',
-      description:
-        'Integrating OpenAI GPT, machine learning, and custom automation for smarter applications: value-add chat, analysis, and productivity augmentation.',
     }
   ]
 

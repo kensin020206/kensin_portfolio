@@ -89,7 +89,7 @@ const About = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              <strong>Senior Full Stack Engineer</strong> with <strong>8+ years</strong> of professional experience building scalable <strong>fullstack</strong> and <strong>mobile applications</strong> for both startups and enterprises.
+              <strong>Senior Full Stack AI Engineer</strong> with <strong>9+ years</strong> of professional experience building practical sophisticated <strong>AI solutions</strong> and scalable <strong>fullstack</strong> and <strong>mobile applications</strong> for both startups and enterprises.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -97,7 +97,7 @@ const About = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              Specialized in <strong>React</strong> and <strong>Next.js</strong>, with solid experience in <strong>Vue.js</strong> and <strong>Angular</strong>. Strong backend background using <strong>Node.js</strong>, <strong>Python</strong>, and <strong>PHP/Laravel</strong>, with working knowledge of <strong>Java</strong> and <strong>.NET</strong> ecosystems.
+              Specialized in <strong>AI & ML</strong> including <strong>NLP, Computer Vision, Generative AI, RAG and Prompt Engineering</strong>, with solid experience in <strong>healthcareAI, fintechAI, and enterprise AI</strong>. Strong full stack background using <strong>React</strong>, <strong>Next.js</strong>, <strong>Angular</strong>, <strong>Node.js</strong>, <strong>Python</strong>, and <strong>PHP/Laravel</strong>, with working knowledge of <strong>Java</strong> and <strong>.NET</strong> ecosystems.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}

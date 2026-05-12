@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { FaCalendar, FaMobileAlt, FaTasks } from 'react-icons/fa'
-import { SiGithub, SiLinkedin, SiGmail, SiTelegram, SiReact } from 'react-icons/si'
+import { FaCalendar, FaMobileAlt, FaRobot } from 'react-icons/fa'
+import { SiGithub, SiLinkedin, SiTelegram, SiReact, SiMailboxdotorg } from 'react-icons/si'
 import site from '../data/site.json'
 import './Hero.css'
 
@@ -20,9 +20,9 @@ const Hero = () => {
 
   const quickStats = [
     { icon: <FaCalendar />, value: '8+', label: 'Years Experience' },
-    { icon: <SiReact />, value: '20+', label: 'Full Stack Projects' },
-    { icon: <FaMobileAlt />, value: '8+', label: 'Mobile Apps' },
-    { icon: <FaTasks />, value: '5+', label: 'Industries' }
+    { icon: <FaRobot />, value: '8+', label: 'Artificial Intelligence' },
+    { icon: <SiReact />, value: '9+', label: 'Full Stack Projects' },
+    { icon: <FaMobileAlt />, value: '3+', label: 'Mobile Apps' }
   ]
 
   return (
@@ -74,7 +74,7 @@ const Hero = () => {
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
             >
-              <SiGmail />
+              <SiMailboxdotorg />
             </motion.a>
             <motion.a
               href={contact.linkedin}
@@ -96,18 +96,6 @@ const Hero = () => {
             >
               <SiGithub />
             </motion.a>
-            {contact.telegram ? (
-              <motion.a
-                href={contact.telegram}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="contact-link-hero"
-                whileHover={{ scale: 1.05, y: -2 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <SiTelegram />
-              </motion.a>
-            ) : null}
           </motion.div>
 
           <motion.div

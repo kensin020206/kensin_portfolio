@@ -20,54 +20,24 @@
     "githubLink": ""
   },
   {
-    "title": "Spoken.io",
-    "subtitle": "E-commerce Platform",
-    "description": "A full-featured e-commerce platform with product catalog, shopping cart, user authentication, payment processing, and admin dashboard.",
-    "technologies": ["React", "Node.js", "MongoDB", "Express", "Redux", "Stripe"],
-    "categories": ["Fullstack"],
-    "image": "spoken.png",
-    "liveLink": "https://www.spoken.io/",
-    "githubLink": ""
-  },
-  {
-    "title": "NexusMD.ai",
+    "title": "Health Catalyst",
     "subtitle": "AI Healthcare Platform",
     "description": "Advanced healthcare platform leveraging AI for medical diagnostics and patient management with AI-powered symptom checker and patient monitoring.",
-    "technologies": ["React", "Node.js", "Python", "FastAPI", "TensorFlow", "PostgreSQL"],
+    "technologies": ["LLMs", "RAG", "Computer Vision", "Python", "TensorFlow", "React", "Node.js", "FastAPI", "PostgreSQL"],
     "categories": ["AI/ML", "Fullstack"],
     "image": "nexusmd.png",
-    "liveLink": "http://nexusmd.ai",
+    "liveLink": "https://www.healthcatalyst.com/",
     "githubLink": ""
   },
   {
-    "title": "Sophiaverse.ai",
-    "subtitle": "Blockchain Game",
-    "description": "Blockchain-based gaming platform with NFT integration, decentralized economy, and immersive gameplay featuring character NFTs and in-game marketplace.",
-    "technologies": ["Solidity", "Ethereum", "Web3.js", "React", "Node.js", "IPFS"],
-    "categories": ["Blockchain", "Game", "Fullstack"],
-    "image": "sophiaverse.png",
-    "liveLink": "https://www.sophiaverse.ai/",
+    "title": "Amount",
+    "subtitle": "FintechAI Platform",
+    "description": "Fintech platform focused on digital banking, lending infrastructure, credit risk assessment, fraud prevention, and loan automation for enterprise banking clients.",
+    "technologies": ["Solidity", "Python", "React", "FastAPI", "Machine Learning", "Web3"],
+    "categories": ["AI/ML", "Fullstack"],
+    "image": "Suithetic.png",
+    "liveLink": "http://amount.com/",
     "githubLink": ""
-  },
-  {
-    "title": "GSAP Cocktail",
-    "subtitle": "Fullstack App",
-    "description": "Interactive cocktail recipe application with smooth GSAP animations featuring cocktail discovery, recipe details, ingredient search, and user favorites.",
-    "technologies": ["React", "GSAP", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
-    "categories": ["Fullstack"],
-    "image": "gsap.png",
-    "liveLink": "https://gsap-cocktail-six-snowy.vercel.app/",
-    "githubLink": "https://github.com/luukogod/Gsap-Cocktail"
-  },
-  {
-    "title": "MortalSoft",
-    "subtitle": "Casino Game Platform",
-    "description": "Blockchain-powered casino gaming platform featuring various casino games with provably fair algorithms and cryptocurrency payments.",
-    "technologies": ["Solidity", "Web3.js", "React", "Node.js", "WebGL", "Phaser"],
-    "categories": ["Game", "Blockchain"],
-    "image": "mortalsoft.png",
-    "liveLink": "https://mortalsoft.net/",
-    "githubLink": "https://github.com/luukogod/MortalSoft-Casino-game"
   },
   {
     "title": "OpenSaaS",
@@ -77,17 +47,17 @@
     "categories": ["Fullstack"],
     "image": "open-saas.png",
     "liveLink": "https://opensaas.sh/",
-    "githubLink": "https://github.com/luukogod/Open-SaaS"
+    "githubLink": ""
   },
   {
-    "title": "QuickAI",
-    "subtitle": "AI SaaS Platform",
-    "description": "AI-powered SaaS platform offering various AI tools including content generation, image creation, code assistance, and data analysis.",
-    "technologies": ["React", "FastAPI", "Python", "OpenAI", "PostgreSQL", "Redis"],
-    "categories": ["AI/ML"],
+    "title": "URBN",
+    "subtitle": "AI-powered E-Commerce Platform",
+    "description": "AI-Powered E-Commerce Personalization & Customer Intelligence Platform.",
+    "technologies": ["LLMs", "RAG", "Generative AI", "React", "FastAPI", "Python", "OpenAI", "PostgreSQL"],
+    "categories": ["AI/ML", "Fullstack"],
     "image": "quickai.png",
-    "liveLink": "https://quick-ai-gray-eight.vercel.app/",
-    "githubLink": "https://github.com/luukogod/QuickAI"
+    "liveLink": "https://www.urbanoutfitters.com",
+    "githubLink": ""
   },
   {
     "title": "Healthcare Service",
@@ -97,7 +67,7 @@
     "categories": ["Fullstack"],
     "image": "healthcare.png",
     "liveLink": "https://healthcare-service-react-app.web.app/",
-    "githubLink": "https://github.com/luukogod/Healthcare-React-App"
+    "githubLink": ""
   },
   {
     "title": "Balancer.fi",
@@ -110,24 +80,14 @@
     "githubLink": ""
   },
   {
-    "title": "Suithetic",
-    "subtitle": "Blockchain & AI Platform",
-    "description": "Platform combining blockchain technology with AI for synthetic asset creation and trading featuring AI-powered market prediction and DeFi integration.",
-    "technologies": ["Solidity", "Python", "React", "FastAPI", "Machine Learning", "Web3"],
-    "categories": ["AI/ML", "Blockchain"],
-    "image": "Suithetic.png",
-    "liveLink": "https://www.suithetic.com/",
-    "githubLink": "https://github.com/lorine93s/suithetic"
-  },
-  {
-    "title": "Veenox",
-    "subtitle": "Perpetual Trading Platform",
-    "description": "Decentralized perpetual trading platform with leverage, cross-margin, and advanced trading features built for high-performance trading.",
-    "technologies": ["Solidity", "Ethereum", "Vue.js", "Node.js", "WebSocket", "Redis"],
-    "categories": ["Blockchain"],
-    "image": "veenox.png",
-    "liveLink": "https://veenox.xyz/",
-    "githubLink": "https://github.com/lorine93s/Veenox---Perpetual-trading-platfom"
+    "title": "SiriusXM",
+    "subtitle": "AI-powered Streaming Platform",
+    "description": "AI-Powered Content Personalization & Listener Intelligence Platform.",
+    "technologies": ["OpenAI", "LLMs", "RAG", "Generative AI", "FastAPI", "Next.js", "Expo", "AR"],
+    "categories": ["AI/ML"],
+    "image": "magic-sketch.png",
+    "websiteLink": "https://www.siriusxm.com",
+    "githubLink": ""
   },
   {
     "title": "Talk to Hosico",
@@ -137,26 +97,16 @@
     "categories": ["AI/ML"],
     "image": "hosico.png",
     "liveLink": "https://talk-to-hosico.vercel.app/",
-    "githubLink": "https://github.com/luukogod/Hosico-AI-Chatbot"
-  },
-  {
-    "title": "Ape Store",
-    "subtitle": "NFT Marketplace",
-    "description": "Premium NFT marketplace featuring exclusive digital art and collectibles with auctions, bidding, and community features.",
-    "technologies": ["Solidity", "Ethereum", "Next.js", "IPFS", "GraphQL", "TypeScript"],
-    "categories": ["Blockchain"],
-    "image": "ape-store.png",
-    "liveLink": "https://ape.store/",
     "githubLink": ""
   },
   {
-    "title": "Flork Tools",
-    "subtitle": "Solana Meme Token Platform",
-    "description": "Solana-powered meme token inspired by the beloved online webcomic featuring quirky sock puppet characters. Built with Rust, Anchor framework, and Candy Machine for NFT minting.",
-    "technologies": ["Solana", "Rust", "Anchor", "Candy Machine", "Web3"],
-    "categories": ["Blockchain"],
-    "image": "flork-site.png",
-    "liveLink": "https://flork-site-sooty.vercel.app/",
+    "title": "Gennev",
+    "subtitle": "AI-Powered Women’s Personalized Health Care Platform",
+    "description": "Gennev focuses on helping women through personalized healthcare guidance, symptom tracking, provider support, and health recommendations.",
+    "technologies": ["OpenAI", "LLMs", "RAG", "Computer Vision", "Python", "React", "Node.js", "FastAPI", "PostgreSQL"],
+    "categories": ["AI/ML", "Fullstack"],
+    "image": "cropcare.png",
+    "liveLink": "https://gennev.com/",
     "githubLink": ""
   },
   {
@@ -182,16 +132,6 @@
     "githubLink": ""
   },
   {
-    "title": "Links Base",
-    "subtitle": "Static Link Manager",
-    "description": "Self-hosted, zero-config link dashboard for teams. Beautiful, searchable, and deployable anywhere with static export.",
-    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "Magic UI"],
-    "categories": ["Fullstack"],
-    "image": "linksbase.png",
-    "websiteLink": "https://demo.linksbase.app/",
-    "githubLink": "https://github.com/luukogod/links-base"
-  },
-  {
     "title": "Bless Payments",
     "subtitle": "Fintech Mobile App",
     "description": "Send money globally with a modern, secure mobile experience. Production apps for iOS and Android.",
@@ -201,35 +141,5 @@
     "websiteLink": "https://blesspayments.com/",
     "appStoreLink": "https://apps.apple.com/au/app/bless-payments-money-transfer/id6447718357",
     "playStoreLink": "https://play.google.com/store/apps/details?id=com.blesspayments.bless"
-  },
-  {
-    "title": "MagicSketch: AI & AR Drawing",
-    "subtitle": "Mobile App",
-    "description": "Transform photos into beautiful sketches with AI. Built end-to-end; 25k+ downloads.",
-    "technologies": ["React Native", "Expo", "AI/ML", "AR"],
-    "categories": ["Mobile", "AI/ML"],
-    "image": "magic-sketch.png",
-    "appStoreLink": "https://apps.apple.com/us/app/magic-sketch-by-boogie-board/id1182125825",
-    "playStoreLink": "https://play.google.com/store/apps/details?id=com.lunatictech.tracetosketch"
-  },
-  {
-    "title": "ZEN Kayak",
-    "subtitle": "Mobile App for iOS and Android",
-    "description": "Find kayak launch sites with geolocation, Mapbox tracking, Algolia search, and premium subscriptions.",
-    "technologies": ["React Native", "Apollo", "GraphQL", "Firebase", "Mapbox", "Algolia", "RevenueCat", "Jest", "Storybook"],
-    "categories": ["Mobile"],
-    "image": "zen.png",
-    "appStoreLink": "https://apps.apple.com/us/app/zen-kayak/id1496639813",
-    "playStoreLink": "https://play.google.com/store/apps/details?id=com.zentrailsapps.zenkayak"
-  },
-  {
-    "title": "CropCare",
-    "subtitle": "AI Plant Health Mobile App",
-    "description": "AI-powered plant disease detection with photo scan, detailed diagnosis, history, multi-language support, and Google sign-in.",
-    "technologies": ["React Native", "AI/ML", "Firebase", "i18n", "Maps"],
-    "categories": ["Mobile", "AI/ML"],
-    "image": "cropcare.png",
-    "appStoreLink": "https://apps.apple.com/ua/app/cropcare/id6756093686?l=uk",
-    "playStoreLink": "https://play.google.com/store/apps/details?id=jp.co.secondstep.cropcare&hl=en_SG"
   }
 ]
