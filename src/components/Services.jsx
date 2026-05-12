@@ -3,10 +3,9 @@ import {
   SiReact,
   SiNodedotjs,
   SiGraphql,
-  SiOpenai,
-  SiEthereum,
+  SiOpenai
 } from 'react-icons/si'
-import { FaMobileAlt, FaServer, FaDatabase } from 'react-icons/fa'
+import { FaMobileAlt, FaServer } from 'react-icons/fa'
 import './Services.css'
 
 const Services = () => {

@@ -4,24 +4,11 @@ import {
   SiNodedotjs, 
   SiVuedotjs, 
   SiPython, 
-  SiJavascript, 
-  SiTypescript,
   SiNextdotjs,
   SiDocker,
-  SiGraphql,
-  SiMongodb,
-  SiRedux,
-  SiTailwindcss,
-  SiFirebase,
-  SiPostgresql,
   SiAngular
 } from 'react-icons/si'
 import { 
-  FaHospital, 
-  FaMoneyBillWave, 
-  FaShoppingCart, 
-  FaShieldAlt,
-  FaBitcoin,
   FaRobot
 } from 'react-icons/fa'
 import './About.css'
@@ -29,14 +16,14 @@ import './About.css'
 const About = () => {
   const techIcons = [
     // Uncomment and update if you want floating icons on the section
-    // { icon: <SiReact />, position: { top: '10%', left: '30%' }, delay: 0 },
-    // { icon: <SiNextdotjs />, position: { top: '20%', left: '10%' }, delay: 0.15 },
-    // { icon: <SiVuedotjs />, position: { top: '30%', left: '60%' }, delay: 0.25 },
-    // { icon: <SiAngular />, position: { top: '50%', left: '45%' }, delay: 0.35 },
-    // { icon: <SiNodedotjs />, position: { bottom: '30%', left: '15%' }, delay: 0.5 },
-    // { icon: <SiPython />, position: { bottom: '10%', right: '20%' }, delay: 0.65 },
-    // { icon: <SiDocker />, position: { top: '70%', right: '15%' }, delay: 0.8 },
-    // { icon: <FaRobot />, position: { bottom: '12%', left: '55%' }, delay: 1 }
+    { icon: <SiReact />, position: { top: '10%', left: '30%' }, delay: 0 },
+    { icon: <SiNextdotjs />, position: { top: '20%', left: '10%' }, delay: 0.15 },
+    { icon: <SiVuedotjs />, position: { top: '30%', left: '60%' }, delay: 0.25 },
+    { icon: <SiAngular />, position: { top: '56%', left: '45%' }, delay: 0.35 },
+    { icon: <SiNodedotjs />, position: { bottom: '30%', left: '15%' }, delay: 0.5 },
+    { icon: <SiPython />, position: { bottom: '10%', right: '20%' }, delay: 0.65 },
+    { icon: <SiDocker />, position: { top: '70%', right: '15%' }, delay: 0.8 },
+    { icon: <FaRobot />, position: { bottom: '9%', left: '55%' }, delay: 1 }
   ]
 
   return (

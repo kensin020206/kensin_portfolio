@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { FaCalendar, FaMobileAlt, FaRobot } from 'react-icons/fa'
-import { SiGithub, SiLinkedin, SiTelegram, SiReact, SiMailboxdotorg } from 'react-icons/si'
+import { FaCalendar, FaRobot } from 'react-icons/fa'
+import { SiLinkedin, SiReact, SiMailboxdotorg } from 'react-icons/si'
 import site from '../data/site.json'
 import './Hero.css'
 
@@ -19,10 +19,10 @@ const Hero = () => {
   }, [])
 
   const quickStats = [
-    { icon: <FaCalendar />, value: '8+', label: 'Years Experience' },
-    { icon: <FaRobot />, value: '8+', label: 'Artificial Intelligence' },
-    { icon: <SiReact />, value: '9+', label: 'Full Stack Projects' },
-    { icon: <FaMobileAlt />, value: '3+', label: 'Mobile Apps' }
+    { icon: <FaCalendar />, value: '9+', label: 'Years Experience' },
+    { icon: <FaRobot />, value: '6+', label: 'Artificial Intelligence' },
+    { icon: <SiReact />, value: '6+', label: 'Full Stack Projects' }
+    // { icon: <FaMobileAlt />, value: '3+', label: 'Mobile Apps' }
   ]
 
   return (
@@ -85,16 +85,6 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
             >
               <SiLinkedin />
-            </motion.a>
-            <motion.a
-              href={contact.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="contact-link-hero"
-              whileHover={{ scale: 1.05, y: -2 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <SiGithub />
             </motion.a>
           </motion.div>
 

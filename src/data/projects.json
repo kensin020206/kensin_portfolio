@@ -1,25 +1,5 @@
 [
   {
-    "title": "Nothing Tech",
-    "subtitle": "Shopify E-commerce Platform",
-    "description": "Modern e-commerce platform for Nothing tech products featuring innovative design, seamless shopping experience, product showcases, and integrated payment systems.",
-    "technologies": ["Shopify", "Liquid", "JavaScript", "React", "CSS3", "Shopify API"],
-    "categories": ["Fullstack"],
-    "image": "shopify.png",
-    "liveLink": "https://my.nothing.tech/",
-    "githubLink": ""
-  },
-  {
-    "title": "Echelon Profile",
-    "subtitle": "Web3 Gaming Identity System",
-    "description": "Central profile system for Parallel.life gaming platform with pixel-perfect UI delivered across 3 phases. Advanced user authentication, profile customization, and enterprise-grade Web3 integration.",
-    "technologies": ["Django", "PostgreSQL", "Web3", "Docker", "GCP", "Pug"],
-    "categories": ["Blockchain", "Fullstack", "Game"],
-    "image": "echelon.png",
-    "liveLink": "https://profile.echelon.io/",
-    "githubLink": ""
-  },
-  {
     "title": "Health Catalyst",
     "subtitle": "AI Healthcare Platform",
     "description": "Advanced healthcare platform leveraging AI for medical diagnostics and patient management with AI-powered symptom checker and patient monitoring.",
@@ -40,16 +20,6 @@
     "githubLink": ""
   },
   {
-    "title": "OpenSaaS",
-    "subtitle": "SaaS Platform",
-    "description": "Open-source SaaS platform with multi-tenant architecture, subscription management, and comprehensive admin dashboard for business applications.",
-    "technologies": ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Stripe", "Tailwind"],
-    "categories": ["Fullstack"],
-    "image": "open-saas.png",
-    "liveLink": "https://opensaas.sh/",
-    "githubLink": ""
-  },
-  {
     "title": "URBN",
     "subtitle": "AI-powered E-Commerce Platform",
     "description": "AI-Powered E-Commerce Personalization & Customer Intelligence Platform.",
@@ -57,26 +27,6 @@
     "categories": ["AI/ML", "Fullstack"],
     "image": "quickai.png",
     "liveLink": "https://www.urbanoutfitters.com",
-    "githubLink": ""
-  },
-  {
-    "title": "Healthcare Service",
-    "subtitle": "React App",
-    "description": "Comprehensive healthcare management system for hospitals and clinics with patient management, appointment scheduling, and medical records.",
-    "technologies": ["React", "Firebase", "Node.js", "Material-UI", "Chart.js", "Redux"],
-    "categories": ["Fullstack"],
-    "image": "healthcare.png",
-    "liveLink": "https://healthcare-service-react-app.web.app/",
-    "githubLink": ""
-  },
-  {
-    "title": "Balancer.fi",
-    "subtitle": "DeFi Protocol",
-    "description": "Advanced DeFi protocol for automated portfolio management and liquidity provision with smart order routing and customizable pools.",
-    "technologies": ["Solidity", "Ethereum", "Hardhat", "TypeScript", "React", "GraphQL"],
-    "categories": ["Blockchain", "Fullstack"],
-    "image": "balancer.png",
-    "liveLink": "https://balancer.fi/",
     "githubLink": ""
   },
   {
@@ -108,38 +58,5 @@
     "image": "cropcare.png",
     "liveLink": "https://gennev.com/",
     "githubLink": ""
-  },
-  {
-    "title": "Teddies NFT Shop",
-    "subtitle": "Web3 NFT Ecosystem Platform",
-    "description": "Unique Web3 platform for the Teddies NFT ecosystem. Earn points, unlock badges, customize profiles, and participate in upcoming drops with programmable NFT (pNFT) technology.",
-    "technologies": ["Rust", "Anchor", "Solana", "pNFT", "Web3", "NFT Marketplace"],
-    "categories": ["Blockchain"],
-    "image": "teddies.png",
-    "liveLink": "https://www.playteddies.com/",
-    "githubLink": ""
-  },
-  {
-    "title": "Goshuin Atlas",
-    "subtitle": "Mobile App",
-    "description": "The ultimate iOS app for cultural travel in Japan. Discover temples and shrines, explore pilgrimages, and track your goshuin collection.",
-    "technologies": ["SwiftUI", "SwiftData", "MapKit", "iOS"],
-    "categories": ["Mobile"],
-    "image": "goshu.png",
-    "websiteLink": "https://goshuinatlas.com/en",
-    "appStoreLink": "https://apps.apple.com/us/app/goshuin-atlas/id6746737093",
-    "playStoreLink": "https://play.google.com/store/apps/details?id=app.bravostudio.A01GSAFMQ9RM9XCA33J7SGTFPF7&hl=en_IE",
-    "githubLink": ""
-  },
-  {
-    "title": "Bless Payments",
-    "subtitle": "Fintech Mobile App",
-    "description": "Send money globally with a modern, secure mobile experience. Production apps for iOS and Android.",
-    "technologies": ["React Native", "TypeScript", "Firebase", "Node.js"],
-    "categories": ["Mobile"],
-    "image": "bless.png",
-    "websiteLink": "https://blesspayments.com/",
-    "appStoreLink": "https://apps.apple.com/au/app/bless-payments-money-transfer/id6447718357",
-    "playStoreLink": "https://play.google.com/store/apps/details?id=com.blesspayments.bless"
   }
 ]

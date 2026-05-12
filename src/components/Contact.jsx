@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { FaEnvelope, FaLinkedin, FaGithub, FaTelegram, FaPaperPlane } from 'react-icons/fa'
+import { FaEnvelope, FaLinkedin, FaPaperPlane } from 'react-icons/fa'
 import site from '../data/site.json'
 import { logger } from '../utils/browserLogger'
 import './Contact.css'
@@ -139,15 +139,6 @@ const Contact = () => {
               aria-label="LinkedIn"
             >
               <FaLinkedin />
-            </a>
-            <a
-              href={contact.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="footer-social-icon"
-              aria-label="GitHub"
-            >
-              <FaGithub />
             </a>
             <a href={`mailto:${contact.email}`} className="footer-social-icon" aria-label="Email">
               <FaEnvelope />

@@ -1,11 +1,8 @@
 import { useMemo, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import {
-  FaMobileAlt,
   FaServer,
-  FaBitcoin,
   FaBrain,
-  FaGamepad,
   FaCode,
   FaExternalLinkAlt,
   FaGithub,
@@ -32,10 +29,7 @@ const Projects = () => {
   const categories = [
     { name: 'All', icon: <FaCode /> },
     { name: 'AI/ML', icon: <FaBrain /> },
-    { name: 'Fullstack', icon: <FaServer /> },
-    { name: 'Mobile', icon: <FaMobileAlt /> },
-    { name: 'Blockchain', icon: <FaBitcoin /> },
-    { name: 'Game', icon: <FaGamepad /> }
+    { name: 'Fullstack', icon: <FaServer /> }
   ]
 
   const filteredProjects =

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { motion } from 'framer-motion'
-import { FaHome, FaCode, FaBriefcase, FaGraduationCap, FaProjectDiagram, FaEnvelope } from 'react-icons/fa'
+import { FaHome, FaCode, FaBriefcase, FaProjectDiagram, FaEnvelope } from 'react-icons/fa'
 import './Navigation.css'
 import ThemeToggle from './ThemeToggle'
 
@@ -16,7 +16,6 @@ const Navigation = ({ activeSection }) => {
     { id: 'home', label: 'Home', icon: <FaHome /> },
     { id: 'skills', label: 'Skills', icon: <FaCode /> },
     { id: 'services', label: 'Services', icon: <FaBriefcase /> },
-    { id: 'experience', label: 'Experience', icon: <FaBriefcase /> },
     { id: 'projects', label: 'Projects', icon: <FaProjectDiagram /> },
     { id: 'contact', label: 'Contact', icon: <FaEnvelope /> }
   ]
